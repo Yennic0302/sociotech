@@ -1,0 +1,39 @@
+.menu-btn {
+  display: none;
+}
+.interactive-menu {
+  display: none;
+}
+.nav-var-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-var-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .options {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .interactive-menu {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    top: 10vh;
+    z-index: 100;
+    background-color: var(--bg);
+  }
+}

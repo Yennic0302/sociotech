@@ -47,8 +47,38 @@ h6 {
   width: 45%;
 }
 
+.presentationTitle {
+  font-size: 6rem;
+}
+.post-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.post-content {
+  overflow: auto;
+}
+
 @media screen and (max-width: 1024px) {
   .card {
     width: 100%;
+  }
+  .post-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .presentationTitle {
+    font-size: 4rem;
+  }
+  .nav-page {
+    display: none;
+  }
+  .post-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
   }
 }

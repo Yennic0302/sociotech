@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="mt-10 text-center p-6 flex justify-center items-center text-lg bg-black">
+    <div className="mt-10  text-center p-6 flex justify-center items-center text-lg bg-black">
       <div>
         <h2 className="text-[var(--main-color)] underline text-xl mb-2">
           Creado Por:
@@ -11,7 +11,6 @@ export default function Footer() {
         <p>Santiago Griman</p>
         <p>Yender Rodriguez</p>
       </div>
-      <div></div>
     </div>
   );
 }
