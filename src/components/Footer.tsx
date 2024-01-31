@@ -31,7 +31,7 @@ export default function Footer() {
           />
           <h3>Universidad Nacional Experimental de la Gran Caracas (UNEXCA)</h3>
         </div>
-        <span>
+        <div className="mt-4">
           Profesor:{" "}
           <a
             href="https://sociocriticaunexca2020.wordpress.com/"
@@ -41,7 +41,7 @@ export default function Footer() {
           >
             Rafael Camacho
           </a>
-        </span>
+        </div>
       </div>
     </div>
   );
