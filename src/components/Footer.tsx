@@ -18,9 +18,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex-1 flex-col  gap-y-4">
-        <div className="flex flex-col items-center gap-y-2">
-          <h2 className="text-[var(--main-color)] underline text-xl mb-2">
+      <div className="flex-1 flex-col  gap-y-6">
+        <div className="flex flex-col items-center gap-y-6">
+          <h2 className="text-[var(--main-color)] underline text-lg lg:text-xl mb-2">
             Para:
           </h2>
           <Image

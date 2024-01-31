@@ -44,10 +44,10 @@ export default function page({ params }: { params: { slug: string } }) {
           </div>
 
           <div className="flex gap-4 relative w-full justify-end">
-            <p className="text-[var(--softTextColor)]">
+            <div className="text-[var(--softTextColor)]">
               <span>Creado por: </span>
               <StudentPresentation name={post.data.createBy} />
-            </p>
+            </div>
             <p className="text-[var(--softTextColor)]">{post.data.date}</p>
           </div>
         </div>

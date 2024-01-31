@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <MainPresentation />
       <div className=" px-20 max-md-[625px]:px-[1rem]">
-        <h2 className="my-8  text-4xl ">Algunos Posts</h2>
+        <h2 className="my-8  text-4xl font-bold">Algunos Posts</h2>
       </div>
       <Posts />
     </main>
