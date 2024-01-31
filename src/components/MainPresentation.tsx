@@ -13,10 +13,10 @@ export default function MainPresentation() {
           </h1>
         </div>
       </div>
-      <div className="relative h-full opacity-40">
+      <div className="relative h-full opacity-40 ">
         <Image alt="main image" src="/background.svg" fill />
       </div>
-      <Arrow style="h-20 w-20 absolute bottom-[5vh] left-[47%] arrow-animation" />
+      <Arrow style="h-20 w-20 absolute bottom-[5vh] left-[40%] sm:left-[45%] arrow-animation" />
     </div>
   );
 }
