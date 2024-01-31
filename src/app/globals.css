@@ -48,10 +48,6 @@ h6 {
   transform: scale(0.9);
 }
 
-.presentationTitle {
-  font-size: 6rem;
-}
-
 .post-content {
   overflow: auto;
 }
