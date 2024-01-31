@@ -15,6 +15,7 @@ const getPostMetadata = () => {
       description: matterResult.data.description,
       createBy: matterResult.data.createBy,
       slug: fileName.replace(".md", ""),
+      mainImg: matterResult.data.mainImg,
     };
   });
   return posts;

@@ -2,7 +2,8 @@
 title: "Software libre"
 description: "Veamos como de que se trata y como se desenvuelve en la sociedad"
 date: "2023-11-15"
-createBy: "yender"
+mainImg: "/posts/ejemplo.jpg"
+createBy: "alfonzo"
 ---
 
 ### Definición de software libre

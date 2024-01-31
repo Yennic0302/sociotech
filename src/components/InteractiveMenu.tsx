@@ -1,4 +1,6 @@
 "use client";
+import Close from "@/icons/Close";
+import Menu from "@/icons/Menu";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import "./NavBar.css";
@@ -19,12 +21,19 @@ export default function InteractiveMenu({ posts }: { posts: metadataPost[] }) {
 
   return (
     <>
-      <li className="menu-btn mx-[2rem]" onClick={() => setIsOpen(!isOpen)}>
-        menu
+      <li
+        className="menu-btn mx-[2rem] cursor-pointer transition-all"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? (
+          <Close style="h-8 w-8 btn-animation" />
+        ) : (
+          <Menu style="h-8 w-8 btn-animation" />
+        )}
       </li>
       {isOpen && (
         <ul className="interactive-menu flex flex-col justify-center items-center">
-          <nav className="p-6 flex flex-col gap-6">
+          <nav className="p-6 flex flex-col gap-6 overflow-auto w-full">
             <Link
               href="/about"
               className="hover:text-[var(--main-color)] text-2xl "

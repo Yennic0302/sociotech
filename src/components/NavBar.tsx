@@ -10,10 +10,13 @@ export default function NavBar() {
       <ul className="flex items-center justify-between w-full nav-var-container">
         <li className="cursor-pointer">
           <Link href="/">
-            SOCIO <span className="text-[var(--main-color)]">TECH</span>
+            SOCIO{" "}
+            <span className="text-[var(--main-color)] cursor-pointer font-bold">
+              TECH
+            </span>
           </Link>
         </li>
-        <ol className="options flex items-center justify-between gap-10">
+        <ol className="hidden sm:flex items-center justify-between gap-10 ">
           <Link href="/posts" className="hover:text-[var(--main-color)]">
             Posts
           </Link>

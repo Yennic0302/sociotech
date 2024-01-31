@@ -44,19 +44,35 @@ h6 {
 }
 
 .card {
-  width: 45%;
+  transition: all 200ms;
+  transform: scale(0.9);
 }
 
 .presentationTitle {
   font-size: 6rem;
 }
-.post-container {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
 
 .post-content {
   overflow: auto;
+}
+
+.arrow-animation {
+  animation: moveUpDownArrow 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDownArrow {
+  0% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .card:hover {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 1024px) {

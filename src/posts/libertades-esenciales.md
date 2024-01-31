@@ -2,7 +2,8 @@
 title: "Libertades Esenciales"
 description: "software libre si otorga a los usuarios todas estas libertades de manera adecuada. De lo contrario no es libre."
 date: "2023-11-15"
-createBy: "yender"
+mainImg: "/posts/ejemplo.jpg"
+createBy: "mario"
 ---
 
 ###Las cuatro libertades esenciales

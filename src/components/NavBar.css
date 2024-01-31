@@ -1,6 +1,10 @@
 .menu-btn {
   display: none;
 }
+
+.btn-animation {
+  animation: appear 300ms;
+}
 .interactive-menu {
   display: none;
 }
@@ -35,5 +39,14 @@
     top: 10vh;
     z-index: 100;
     background-color: var(--bg);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -1,3 +1,4 @@
+import Arrow from "@/icons/Arrow";
 import Image from "next/image";
 
 export default function MainPresentation() {
@@ -15,6 +16,7 @@ export default function MainPresentation() {
       <div className="relative h-full opacity-40">
         <Image alt="main image" src="/background.svg" fill />
       </div>
+      <Arrow style="h-20 w-20 absolute bottom-[5vh] left-[47%] arrow-animation" />
     </div>
   );
 }

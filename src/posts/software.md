@@ -2,6 +2,7 @@
 title: "software"
 description: "software libre si otorga a los usuarios todas estas libertades de manera adecuada. De lo contrario no es libre."
 date: "2023-11-16"
+mainImg: "/posts/ejemplo.jpg"
 createBy: "yender"
 ---
 

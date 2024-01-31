@@ -7,10 +7,8 @@ export default function Posts() {
     <Card key={post.slug} data={post} />
   ));
   return (
-    <section className="flex pt-[10rem] justify-between h-screen overflow-auto ">
-      <div className="flex flex-wrap justify-evenly gap-6 px-20">
-        {postPreviews}
-      </div>
+    <section className="flex pt-[10rem] justify-between  ">
+      <div className="flex flex-wrap justify-center gap-4">{postPreviews}</div>
     </section>
   );
 }
