@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="realtive top-[10vh] flex justify-center items-center p-2 sm:p-20">
+    <div className="realtive pt-[11vh] flex justify-center items-center p-4 sm:p-20">
       <div className=" flex flex-col gap-y-8 lg:max-w-[70%]">
         <h1 className="text-2xl lg:text-4xl">Acerca de Socio Tech</h1>
         <p className="text-lg lg:text-xl">
