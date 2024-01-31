@@ -22,7 +22,7 @@ export default function Card({ data }: { data: DataFromPost }) {
         <div className="relative h-[300px] w-full">
           <Image src={mainImg} fill alt={title} className="object-cover" />
         </div>
-        <p className="h-14 text-[var(--softTextColor)]  text-ellipsis overflow-hidden">
+        <p className="h-12 text-[var(--softTextColor)]  text-ellipsis overflow-hidden">
           {description}
         </p>
         <div className="flex gap-4 relative w-full justify-end">
