@@ -20,8 +20,6 @@ export const generateStaticParams = () => {
 
 export default function page({ params }: { params: { slug: string } }) {
   const post = getPostContent(params.slug);
-  console.log(params);
-  console.log(post);
 
   return (
     <div className="relative  flex  pt-[8rem] ">
@@ -34,7 +32,7 @@ export default function page({ params }: { params: { slug: string } }) {
       <div className=" z-10 px-[0.5rem] lg:px-[2rem] ">
         <h1 className="text-4xl font-bold">{post.data.title}</h1>
         <div className=" flex flex-col gap-2 gap-y-4 p-4 rounded-md">
-          <div className="relative h-[400px] w-full">
+          <div className="relative h-[450px] w-full">
             <Image
               src={post.data.mainImg}
               fill

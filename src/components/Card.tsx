@@ -18,11 +18,13 @@ export default function Card({ data }: { data: DataFromPost }) {
       className=" w-full lg:max-w-[45%]  card shrink"
     >
       <div className="  bg-[var(--softBg)] flex flex-col gap-2 gap-y-4 p-4 rounded-md">
-        <h2 className="text-xl lg:text-4xl font-bold">{title}</h2>
+        <h2 className="text-xl lg:text-4xl font-bold h-20 overflow-hidden text-ellipsis">
+          {title}
+        </h2>
         <div className="relative h-[300px] w-full">
           <Image src={mainImg} fill alt={title} className="object-cover" />
         </div>
-        <p className="h-12 text-[var(--softTextColor)]  text-ellipsis overflow-hidden">
+        <p className=" h-12 text-[var(--softTextColor)]   overflow-hidden text-ellipsis">
           {description}
         </p>
         <div className="flex gap-4 relative w-full justify-end">
