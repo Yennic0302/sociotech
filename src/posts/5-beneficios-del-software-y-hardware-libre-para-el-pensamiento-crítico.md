@@ -1,9 +1,9 @@
 ---
-title: "4. Software, Hardware libre y su relacion con el pensamiento critico."
-description: "El software y el hardware libres están estrechamente relacionados con el pensamiento crítico. Ambos mejoran la capacidad de las personas para comprender cómo funcionan las cosas, cuestionar suposiciones y tomar decisiones informadas."
+title: "5. Beneficios del software y hardware libre para el pensamiento crítico. "
+description: "El software libre es una parte importante del mundo de la tecnología. Es gratuito, de código abierto y a menudo ofrece la misma funcionalidad que las aplicaciones comerciales.."
 date: "2024-01-23"
-mainImg: "/posts/software-pensamiento-critico.jpg"
-createBy: "jesus"
+mainImg: "/posts/pensamiento-critico.jpg"
+createBy: "mario"
 ---
 
 El software libre es una parte importante del mundo de la tecnología. Es gratuito, de código abierto y a menudo ofrece la misma funcionalidad que las aplicaciones comerciales.
